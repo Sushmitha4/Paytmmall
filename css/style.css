@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto,-apple-system,BlinkMacSystemFont,Helvetica Neue,Segoe UI,sans-serif;
+}
+
+.headerSection {
+    width: 100%;
+    height: 150px;
+}
+
+.header1 {
+    background: #f4f4f4;
+    width: 100%;
+    height: 26px;
+}
+
+.header1Inside {
+    height: 25px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+    line-height: 10px;
+    color: #7a7a7a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header1list {
+    margin: 1px;
+    padding: 1px; 
+    margin: 0px 22px;
+}
+
+.vibeImage {
+    height: 12px;
+    width: 54px;
+}
+
+.header2 {
+    height: 72px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    height: 72px;
+    width: 112px;
+}
+
+.header3 {
+    height: 52px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.headerIn1, .headerIn2, .headerIn3 {
+    border: 1px solid #d6d6d6;
+    margin: 3px;
+    margin-right: 10px;
+}
+
+.headerIn3 {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.headerIn3list {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.headerIn1 {
+    width: 168px;
+    height: 26px;
+    font-size: 13px;
+    padding: 5px;
+    text-align: center;
+}
+
+.fa-bars {
+    padding-right: 8px;
+    padding-top: 2px;
+    font-size: 20px;
+    color: #e94c24;
+}
+
+.headerIn2 {
+    width: 720px;
+    height: 36px;
+}
+
+.fa-search {
+    position: absolute;
+    font-size: 20px;
+    margin-left: -30px;
+    margin-top: 7px;
+    color: #e94c24;
+}
+
+.headerIn2Input {
+    height: 36px;
+    width: 708px;
+    margin: 0;
+    padding: 0;
+    border: none;
+    padding-left: 12px;
+}
+
+.headerIn3 {
+    height: 36px;
+}
+
+.headerIn3list {
+    list-style-type: none;
+    width: 128px;
+    font-size: 13px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2px;
+}
+
+.fa-id-card {
+    padding-right: 9px;
+    font-size: 20px;
+    color: #e94c24;
+}
+
+.fa-shopping-basket {
+    padding-right: 9px;
+    font-size: 20px;
+    color: #e94c24;
+    padding-left: 10px;
+}
+
+.fa-smile-o {
+    padding-right: 9px;
+    font-size: 20px;
+    color: #e94c24;
+    padding-left: 10px;
+}
+
+.content {
+    width: 100%;
+    height: 300px;
+}
+
+.contentImage {
+    height: 290px;
+    width: 1352px;
+    margin: 6px;
+}
+
+.footerSection {
+    height: 350px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.footerSectionHeading {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 70px;
+    font-size: 26px;
+}
+
+.footerSectionContent {
+    height: 270px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.footerSectionContentInside {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.footerSCI1 {
+    height: 240px;
+    width: 100%;
+    margin: 0 10px;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footerSCIImage {
+    height: 158px;
+    width: 158px;
+    border-radius: 100%;
+    margin-bottom: 15px;
+}
